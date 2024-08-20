@@ -1,0 +1,13 @@
+/* Main Container */
+.mainContainer {
+    min-height: 100vh;
+    height: 100%;
+    width: 100vw;
+    background: linear-gradient(135deg, #8e44ad, #c0392b); /* Darker gradient */
+    color: white;
+    padding: 20px;
+}
+.blurred {
+    filter: blur(5px);
+    pointer-events: none;
+}  

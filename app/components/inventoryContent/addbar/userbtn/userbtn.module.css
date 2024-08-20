@@ -1,0 +1,41 @@
+.userButtonContainer {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .userButton {
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .userButton:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .userMenu {
+    margin-top: 10px;
+  }
+  
+  .userMenu .MuiPaper-root {
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .userMenu .MuiMenuItem-root {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+  
+  .userMenu .MuiMenuItem-root:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .dialogContent {
+    padding: 20px;
+  }
+  

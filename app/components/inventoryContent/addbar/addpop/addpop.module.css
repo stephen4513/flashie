@@ -1,0 +1,24 @@
+/* AddPop */
+.modalContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.textField {
+    margin-bottom: 10px;
+    width: 300px;
+}
+.generateButton {
+    background-color: #34495e;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: var(--font-family);
+    font-style: italic;
+}

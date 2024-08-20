@@ -1,0 +1,72 @@
+.modalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    width: 360px;
+    max-width: 90%;
+    outline: none;
+    backdrop-filter: blur(10px);
+}
+
+.modalTitle {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.planButton {
+    margin-bottom: 12px;
+    width: 100%;
+    padding: 10px;
+    background-color: #f093fb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.planButton.active {
+    background-color: #f5576c;
+    transform: scale(1.05);
+}
+
+.planButton:hover {
+    background-color: #f5576c;
+}
+
+.paymentButton {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #6200EA;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    text-transform: capitalize;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.paymentButton:disabled {
+    background-color: #bbb;
+    cursor: not-allowed;
+}
+
+.paymentButton:not(:disabled):hover {
+    background-color: #5300c6;
+    transform: scale(1.02);
+}

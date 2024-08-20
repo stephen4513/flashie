@@ -1,0 +1,32 @@
+.add {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .userButton {
+    margin-right: auto;
+  }
+  
+  .addFlashes {
+    background-color: #34495e;
+    color: white !important;
+    padding: 10px 20px !important;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px !important;
+    font-family: var(--font-family);
+    font-style: italic;
+  }
+  
+  .title {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px !important;
+    font-family: var(--font-family);
+    font-style: italic;
+    padding-top: 20px;
+  }
+  

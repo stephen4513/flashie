@@ -1,0 +1,23 @@
+@import "@fontsource/dancing-script";
+@import "@fontsource/amatic-sc";
+@import "@fontsource/indie-flower";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --background-color: black;
+  --primary-color: rgb(143, 4, 118);
+  --primaryfade-color: rgb(106, 3, 87);
+  --secondary-color: #000000;
+  --text-color: black;
+  --font-main: 'Courier New', Courier, monospace;
+  --font-hand1: 'Dancing Script', cursive;
+  --font-hand2: 'Amatic SC', cursive;
+  --font-hand3: 'Indie Flower', cursive;
+  --flashcard-background: linear-gradient(to bottom, white 0%, white 50px, #d16ba5 53px, transparent 52px),
+                          repeating-linear-gradient(to bottom, transparent 0px, transparent 24px, #e8e8e8 25px, transparent 26px);
+}
